@@ -1,65 +1,65 @@
 # Superwriting
 
-Skill Claude untuk menulis, menyusun, menyunting, dan memeriksa tulisan berbahasa Indonesia atau Inggris. Skill ini menggabungkan tiga hal dalam satu paket:
+Claude's skill is writing, composing, editing, and proofreading Indonesian or English texts. This skill combines three elements into one:
 
-1. **Struktur**: esai ilmiah yang tersusun rapi (Abstract, Introduction, Methodology, Results, Discussion) dengan pola paragraf topic sentence, proofs & analysis, dan relink.
-2. **Gaya**: kalimat ringkas, aktif, dan konkret ala The Economist, berpatokan pada KBBI dan EYD V.
-3. **Kohesi dan koherensi**: tautan bentuk dan makna antarkalimat dan antarparagraf.
+1. Structure: a well-organized scientific essay (Abstract, Introduction, Methodology, Results, Discussion) with a paragraph pattern of topic sentences, proofs & analysis, and relinks.
+2. Style: concise, active, and concrete sentences a la The Economist, based on KBBI and EYD V.
+3. Cohesion and coherence: links between sentences and paragraphs.
 
-Skill ini menggantikan skill `economist-style` dan `essay-mode`.
+This skill replaces the Economist-style and Essay-mode skills.
 
-## Kapan skill ini aktif
+## When is this skill active?
 
-Claude memakai skill ini saat kamu meminta menulis, merevisi, meringkas, atau mengecek esai, paper, artikel, skripsi, tesis, laporan, email formal, atau naskah apa pun. Contoh pemicunya:
+Claude uses this skill when you ask him to write, revise, summarize, or proofread an essay, paper, article, thesis, dissertation, report, formal email, or any other manuscript. Examples of triggers:
 
-- "Perbaiki tulisan ini"
-- "Buat lebih ringkas"
-- "Tulis abstract"
-- "Cek struktur esai"
-- "Kalimat ini kaku" atau "bertele-tele"
-- "Tidak nyambung" atau "loncat-loncat"
+- "Improve this writing"
+- "Make it more concise"
+- "Write an abstract"
+- "Check the structure of the essay"
+- "This sentence is stiff" or "wordy"
+- "It doesn't connect" or "jumps around"
 
-## Mode kerja
+## Work mode
 
-| Permintaan | Mode | Langkah |
+| Prompt | Mode | Steps |
 |---|---|---|
-| Menulis atau merevisi esai ilmiah | Esai | A (struktur), B (gaya), C (kohesi) |
-| Menyunting gaya teks apa pun | Sunting | B, lalu C bila lebih dari satu paragraf |
-| Memperbaiki tulisan yang tidak nyambung | Sunting | C, lalu B |
+| Writing or revising a scientific essay | Essay | A (structure), B (style), C (cohesion) |
+| Editing any text style | Edit | B, then C if more than one paragraph |
+| Correcting disjointed writing | Edit | C, then B |
 
-## Prinsip utama
+## Main principles
 
-- Pakai kata pendek, lazim, dan konkret. Ubah nominalisasi menjadi verba.
-- Pakai kalimat aktif. Pasif hanya bila pelaku tidak diketahui atau tidak penting.
-- Tanpa metafora, perumpamaan, dan kiasan.
-- Tanpa tanda pisah em dash. Ganti dengan koma, titik dua, tanda kurung, atau titik.
-- Ulang kata kunci yang sama untuk hal yang sama, jangan ganti dengan sinonim.
-- Lulus tiga uji akhir: uji kerangka, uji cabut, dan uji tanpa penghubung.
+- Use short, common, and concrete words. Change nominalizations to verbs.
+- Use the active voice. Passive only when the agent is unknown or unimportant.
+- No metaphors, similes, or allusions.
+- No em dashes. Replace them with commas, colons, parentheses, or periods.
+- Repeat the same keywords for the same purpose; don't replace them with synonyms.
+- Pass three final tests: the outline test, the strip test, and the no-link test.
 
-## Struktur repositori
+## Repository Structure
 
 ```
 Superwriting/
-├── SKILL.md                              # Instruksi utama skill
+├── SKILL.md # Key Skill Instructions
 ├── references/
-│   ├── struktur-bagian.md                # Isi tiap bagian esai
-│   ├── pola-paragraf.md                  # Topic sentence, proofs & analysis, relink
-│   ├── pola-elaborasi-penghubung.md      # Dua pola pengembangan detail
-│   ├── diksi-dan-istilah.md              # Daftar kata bermasalah dan padanannya
-│   ├── kohesi-koherensi.md               # Aturan, tabel penghubung, tiga uji
-│   └── checklist-swasunting.md           # Daftar periksa swasunting
+│ ├── section-structure.md # Content of each section of the essay
+│ ├── paragraph-pattern.md # Topic sentence, proofs & analysis, relink
+│ ├── link-elaboration-pattern.md # Two detail development patterns
+│ ├── diction-and-terms.md # List of problematic words and their equivalents
+│ ├── cohesion-coherence.md # Rules, link tables, three tests
+│ └── self-editing-checklist.md # Self-editing checklist
 ├── README.md
 ├── LICENSE
 └── .gitignore
 ```
 
-## Cara memasang
+## How to install
 
-**Claude.ai (web atau aplikasi)**
+**Claude.ai (web or app)**
 
-1. Unduh repositori ini sebagai ZIP, atau kompres folder `Superwriting` sendiri. Pastikan `SKILL.md` ada di dalam folder tersebut.
-2. Buka **Settings**, lalu **Capabilities**, lalu **Skills**.
-3. Unggah berkas ZIP dan aktifkan skill.
+1. Download this repository as a ZIP, or unzip the `Superwriting` folder yourself. Make sure `SKILL.md` is inside that folder.
+2. Go to **Settings**, then **Capabilities**, then **Skills**.
+3. Upload the ZIP file and enable the skill.
 
 **Claude Code**
 
@@ -67,26 +67,24 @@ Superwriting/
 git clone https://github.com/IrgiAulia/Superwriting.git ~/.claude/skills/superwriting
 ```
 
-Untuk satu proyek saja, klon ke `.claude/skills/superwriting` di dalam proyek itu.
+For a single project, clone to `.claude/skills/superwriting` within that project.
 
-## Contoh pemakaian
-
-```
-Tulis abstract untuk penelitian saya tentang dampak subsidi pupuk terhadap
-produktivitas padi di Jawa Tengah. RQ: apakah subsidi meningkatkan hasil panen?
-```
+## Usage Example
 
 ```
-Sunting paragraf ini. Terlalu banyak kalimat pasif dan antarkalimatnya
-tidak nyambung.
+Write an abstract for my research on the impact of fertilizer subsidies on rice productivity in Central Java. RQ: Do subsidies increase crop yields?
 ```
 
-## Rujukan bahasa
+```
+Edit this paragraph. There are too many passive sentences and the sentences don't connect.
+```
+
+## Language References
 
 - EYD V: https://ejaan.kemendikdasmen.go.id/
 - KBBI: https://kbbi.kemendikdasmen.go.id/
-- Bahasa Inggris berpatokan pada Oxford Dictionary.
+- English based on the Oxford Dictionary.
 
-## Lisensi
+## License
 
-Dirilis di bawah lisensi MIT. Lihat berkas [LICENSE](LICENSE).
+Released under the MIT license. See the [LICENSE](LICENSE) file.
