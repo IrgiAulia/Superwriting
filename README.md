@@ -1,3 +1,4 @@
+![Superwriting Cover Image](https://github.com/IrgiAulia/Halp/blob/main/Group%2010.png?raw=true)
 # Superwriting
 
 Claude's skill is writing, composing, editing, and proofreading Indonesian or English texts. This skill combines three elements into one:
