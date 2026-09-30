@@ -1,7 +1,7 @@
 ![Superwriting Cover Image](https://github.com/IrgiAulia/Superwriting/blob/main/Group%2011.png?raw=true)
 # Superwriting
 
-Claude's skill is writing, composing, editing, and proofreading Indonesian or English texts. This skill combines three elements into one:
+Claude's skill in writing, composing, editing, and proofreading Indonesian or English texts. This skill combines three elements into one:
 
 1. Structure: a well-organized scientific essay (Abstract, Introduction, Methodology, Results, Discussion) with a paragraph pattern of topic sentences, proofs & analysis, and relinks.
 2. Style: concise, active, and concrete sentences a la The Economist, based on KBBI and EYD V.
