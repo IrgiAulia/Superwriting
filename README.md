@@ -84,7 +84,7 @@ Edit this paragraph. There are too many passive sentences and the sentences don'
 
 - EYD V: https://ejaan.kemendikdasmen.go.id/
 - KBBI: https://kbbi.kemendikdasmen.go.id/
-- English based on the Oxford Dictionary.
+- English based on the Oxford Learner's Dictionary: https://www.oxfordlearnersdictionaries.com/.
 
 ## License
 
