@@ -5,6 +5,7 @@ Daftar ini bukan daftar tertutup, prinsipnya: hindari kata yang bergaya, membesa
 ## Kata bergaya/pomposa yang sebaiknya diganti kata lebih lugas
 
 - *melakukan optimalisasi* → *mengoptimalkan*
+- *melokalisir* → *melokalisasi* (ganti sufiks -ir sesuai KBBI kecuali yang memang ditandai baku di KBBI seperti *menganulir*)
 - *mengimplementasikan* → *menerapkan* (kecuali konteks memang teknis-formal dan berulang)
 - *melakukan sosialisasi* → *menyosialisasikan* atau *menjelaskan/memperkenalkan* jika konteksnya memang itu
 - *berkolaborasi* → *bekerja sama* (kecuali register memang menuntut formalitas tinggi)
