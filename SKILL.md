@@ -13,7 +13,7 @@ Bahasa: ikuti bahasa user. Bahasa Indonesia berpatokan pada EYD V (https://ejaan
 
 | Permintaan user | Mode | Langkah |
 |---|---|---|
-| Menulis esai, paper, artikel ilmiah, atau satu bagiannya | **Esai** | A, B, lalu C |
+| Menulis esai, _paper_, artikel ilmiah, laporan ilmiah, pracetak, atau satu bagiannya | **Esai** | A, B, lalu C |
 | Merevisi atau mengecek struktur esai | **Esai** | A, B, lalu C |
 | Menyunting gaya teks apa pun (email, laporan, naskah) | **Sunting** | B, lalu C bila lebih dari satu paragraf |
 | Memperbaiki tulisan yang loncat-loncat atau tidak nyambung | **Sunting** | C, lalu B |
@@ -21,7 +21,7 @@ Bahasa: ikuti bahasa user. Bahasa Indonesia berpatokan pada EYD V (https://ejaan
 
 ## A. Struktur esai ilmiah
 
-1. **Cek konteks**: topik, tujuan riset, research question (RQ), data atau temuan. Jika RQ atau temuan utama belum ada, tanyakan singkat. Ini fondasi seluruh esai.
+1. **Cek konteks**: topik, tujuan riset, _research question_ (RQ), data atau temuan. Jika RQ atau temuan utama belum ada, tanyakan singkat. Ini fondasi seluruh esai.
 2. **Susun lima bagian berurutan**: Abstract, Introduction, Methodology, Results, Discussion. Baca `references/struktur-bagian.md` sebelum menulis abstract atau introduction.
 3. **Bangun tiap paragraf isi** dengan tiga unsur berurutan. Detail dan contoh di `references/pola-paragraf.md`:
    - **Topic sentence**: satu kalimat di awal, satu klaim substantif.
@@ -36,12 +36,12 @@ Bahasa: ikuti bahasa user. Bahasa Indonesia berpatokan pada EYD V (https://ejaan
 Terapkan berurutan dari atas ke bawah. Daftar kata bermasalah ada di `references/diksi-dan-istilah.md`.
 
 ### 1. Kata
-- Pakai kata pendek, lazim, dan konkret. Jika bisa dipotong, potong.
+- Pakai kata pendek, lazim, umum, dan konkret. Jika bisa dipotong-potong. Minimalisasi penggunaan istilah-istilah sulit kecuali memang berhubungan dengan topik misalnya penulis sedang membahas astronomi, maka tetap gunakan istilah seperti nebula, supernova, komet, dan lainnya.
 - Ubah nominalisasi menjadi verba: *melakukan pembelian* jadi *membeli*, *pelaksanaan* jadi *melaksanakan*.
 - Pilih verba spesifik: *melonjak* lebih kuat daripada *naik dengan cepat*.
-- **Jangan pakai metafora, perumpamaan, atau kiasan.**
+- **Jangan pakai metafora, perumpamaan, dan/atau kiasan.**
 - Jelaskan kata asing atau istilah ilmiah saat pertama muncul. Sesudahnya pakai istilah yang sama secara konsisten.
-- Minimalkan singkatan dan akronim. Jika perlu, jelaskan dulu di awal.
+- Minimalisasi singkatan dan akronim. Jika perlu, jelaskan dulu di awal.
 - Buang kata pengisi: *kira-kira, pada dasarnya, sepenuhnya, ekstrem, mudah-mudahan, secara harfiah, benar-benar, praktis, cukup*.
 - Hindari eufemisme yang mengaburkan fakta dan hiperbola yang melemahkan kata (*krisis, bersejarah, dramatis*).
 
@@ -49,7 +49,7 @@ Terapkan berurutan dari atas ke bawah. Daftar kata bermasalah ada di `references
 - **Pakai kalimat aktif.** Pasif hanya bila pelaku tidak diketahui atau tidak penting, dan tidak boleh dipakai untuk menyembunyikan pelaku. Pada esai ilmiah, anggap pasif sebagai pengecualian yang perlu alasan.
 - Buat kalimat pendek. Pecah kalimat lebih dari sekitar 25 kata dan kalimat yang subjeknya terpisah jauh dari predikat.
 - Jangan hilangkan kata hubung (*yang, bahwa*) bila membuat makna ganda.
-- Buang pelemah (*mungkin, agaknya, sepertinya*) bila data mendukung klaim.
+- Buang pelemah (*mungkin, agaknya, sepertinya*) bila data mendukung klaim, tetapi jangan gunakan klaim yang berlebihan untuk temuan awal seperti dengan menggunakan kata (*sangat, pasti, parah, luar biasa*), selalu utamakan investigasi secara empiris terlebih dahulu.
 
 ### 3. Tanda baca dan ejaan
 - **Jangan pakai tanda pisah "—".** Ganti dengan koma, titik dua, tanda kurung, atau titik.
