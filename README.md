@@ -7,8 +7,6 @@ Claude's skill in writing, composing, editing, and proofreading Indonesian or En
 2. Style: concise, active, and concrete sentences a la The Economist, based on KBBI and EYD V.
 3. Cohesion and coherence: links between sentences and paragraphs.
 
-This skill replaces the Economist-style and Essay-mode skills.
-
 ## When is this skill active?
 
 Claude uses this skill when you ask him to write, revise, summarize, or proofread an essay, paper, article, thesis, dissertation, report, formal email, or any other manuscript. Examples of triggers:
