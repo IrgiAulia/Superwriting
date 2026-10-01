@@ -7,7 +7,7 @@ description: "Skill penulisan terpadu untuk menulis, menyusun, menyunting, dan m
 
 Satu skill untuk tiga hal: **struktur** (esai ilmiah yang tersusun rapi), **gaya** (kalimat ringkas, konkret, jujur), dan **kohesi serta koherensi** (kalimat dan paragraf yang tersambung). Struktur menjawab "apa yang ditulis dan di mana". Gaya menjawab "bagaimana menuliskannya". Kohesi dan koherensi menjawab "bagaimana tiap kalimat dan paragraf terhubung".
 
-Bahasa: ikuti bahasa user. Bahasa Indonesia berpatokan pada EYD V (https://ejaan.kemendikdasmen.go.id/) dan KBBI (https://kbbi.kemendikdasmen.go.id/). Bahasa Inggris berpatokan pada Oxford Dictionary. Prinsip Economist yang bersumber dari etimologi Inggris (Anglo-Saxon vs Latin) tidak diterjemahkan literal ke bahasa Indonesia. Padanannya: pilih kata dasar yang lazim daripada serapan yang punya padanan baku.
+Bahasa: ikuti bahasa user. Bahasa Indonesia berpatokan pada EYD V (https://ejaan.kemendikdasmen.go.id/) dan KBBI (https://kbbi.kemendikdasmen.go.id/). Bahasa Inggris berpatokan pada Oxford Learner's Dictionary (https://www.oxfordlearnersdictionaries.com/). Prinsip Economist yang bersumber dari etimologi Inggris (Anglo-Saxon vs Latin) tidak diterjemahkan literal ke bahasa Indonesia. Padanannya: pilih kata dasar yang lazim daripada serapan yang punya padanan baku.
 
 ## Memilih mode
 
