@@ -4,7 +4,7 @@ Gunakan sebagai pemeriksaan akhir setelah draf selesai, berurutan dari atas ke b
 
 ## Struktur
 - [ ] Apakah setiap paragraf memuat satu gagasan utama?
-- [ ] Apakah urutan argumen logis dari awal sampai akhir?
+- [ ] Apakah urutan argumen logis, koheren, dan kohesif dari awal sampai akhir?
 - [ ] Apakah ada bagian yang bisa dipecah dengan subjudul karena terlalu panjang tanpa jeda?
 
 ## Ketegasan
